@@ -4,6 +4,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
     padding: calc(50px + (84 - 50) * ((100vw - 1000px) / (1920 - 1000)))
       calc(20px + (150 - 20) * ((100vw - 1000px) / (1920 - 1000)));
