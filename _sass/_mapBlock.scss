@@ -10,6 +10,11 @@
     address {
       @include rem(40);
       line-height: 56px;
+      ul li {
+        -moz-font-feature-settings: "lnum";
+        -webkit-font-feature-settings: "lnum";
+        font-feature-settings: "lnum";
+      }
       p {
         margin-bottom: 20px;
       }
@@ -21,6 +26,7 @@
       a {
         font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1920 - 320)));
         line-height: calc(22px + (32 - 22) * ((100vw - 320px) / (1920 - 320)));
+        font-weight: 500;
       }
     }
   }
