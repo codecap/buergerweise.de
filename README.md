@@ -48,7 +48,7 @@ email: Your email here
 description: meta description for SEO
 ```
 
-Use gulp if you need in `gulpfile.js`: `All gulp tasks are this file`
+Use gulp if you need in `gulpfile.js`: `All gulp tasks are in this file`
 
 All packages are in `package.json`:
 
@@ -57,7 +57,7 @@ All packages are in `package.json`:
 To set up a google map you need to take a key from the Google console. Then put it in the tag <script> as it is shown below. This tag has to be located on the bottom of `_layouts/default.html` :
 
         <script async defer
-          src="https://maps.googleapis.com/maps/api/js?key=HERE=initMap&libraries=&v=weekly">
+          src="https://maps.googleapis.com/maps/api/js?key=API_KEY=initMap&libraries=&v=weekly">
         </script>
 
 To set up the coordinates of your place take them from google map and then put them in:
