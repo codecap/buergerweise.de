@@ -42,7 +42,7 @@
         right: 0;
         width: 100%;
         text-align: center;
-        bottom: calc(70px + (90 - 70) * ((100vw - 320px) / (1280 - 320)));
+        bottom: 89px;
       }
     }
   }
@@ -181,6 +181,11 @@
     .logo_text p {
       @include rem(40);
     }
+    .logo {
+      img {
+        height: calc(100px + (130 - 100) * ((100vw - 320px) / (480 - 320)));
+      }
+    }
   }
   .contact_title {
     display: block;
@@ -275,6 +280,9 @@
       address {
         @include rem(24);
         line-height: 33px;
+      }
+      span {
+        bottom: 130px;
       }
     }
     .contact_logo {
