@@ -1,0 +1,20 @@
+.contact_title {
+  display: flex;
+  gap: 303px;
+  padding: 170px 0 100px;
+  padding: calc(110px + (170 - 110) * ((100vw - 768px) / (1920 - 768))) 0
+    calc(60px + (170 - 60) * ((100vw - 768px) / (1920 - 768)));
+  width: 100%;
+
+  .contact_item {
+    p {
+      @include rem(64);
+      line-height: 90px;
+      font-weight: 400;
+    }
+  }
+  .contact_logo {
+    flex: 0 0 213px;
+    float: right;
+  }
+}

@@ -1,0 +1,30 @@
+.contact_map {
+  display: grid;
+  grid-template-columns: 1.3fr 2fr;
+  grid-column-gap: 20px;
+  min-height: 650px;
+  padding-bottom: 148px;
+
+  .address {
+    position: relative;
+    address {
+      @include rem(40);
+      line-height: 56px;
+      p {
+        margin-bottom: 20px;
+      }
+    }
+    span {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      a {
+        font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1920 - 320)));
+        line-height: calc(22px + (32 - 22) * ((100vw - 320px) / (1920 - 320)));
+      }
+    }
+  }
+  .contact_logo {
+    display: none;
+  }
+}

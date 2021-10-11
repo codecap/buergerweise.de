@@ -1,0 +1,26 @@
+<div class="wrapper">
+  <div class="footer_info">
+    <div class="command_name">
+      {% if page.url == '/'%}
+      <a href="{{ site.baseurl }}/privacy.html"
+        >{{ site.data.titleLink.policy }}</a
+      >
+      {% else %}
+      <a href="/"> {{ site.data.titleLink.siteLink }}</a>
+      {% endif %}
+    </div>
+    <div class="soc_link">
+      <ul>
+        {% for link in site.data.social %}
+        <li>
+          <a href="{{ link.link }}" target="_blank"
+            ><img
+              src="{{site.baseurl}}/assets/img/{{ link.image }}"
+              alt="{{link.title}}"
+          /></a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

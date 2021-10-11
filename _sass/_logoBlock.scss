@@ -1,0 +1,18 @@
+.logo_block {
+  display: flex;
+  gap: 118px;
+  padding: 170px 0;
+
+  .logo {
+    flex: 0 0 250px;
+    display: flex;
+    align-items: center;
+  }
+  .logo_text {
+    p {
+      @include rem(64);
+      line-height: 86px;
+      font-weight: 400;
+    }
+  }
+}

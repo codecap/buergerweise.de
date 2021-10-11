@@ -1,0 +1,29 @@
+.content {
+  max-width: 804px;
+  margin: 0 auto;
+  padding-top: calc(50px + (100 - 50) * ((100vw - 320px) / (1920 - 320)));
+  padding-bottom: calc(146px + (275 - 146) * (100vw - 320px) / (1920 - 320));
+
+  section {
+    margin-bottom: calc(50px + (70 - 50) * ((100vw - 320px) / (1920 - 320)));
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+
+      font-size: calc(20px + (32 - 20) * ((100vw - 320px) / (1920 - 320)));
+      line-height: calc(28px + (45 - 28) * ((100vw - 320px) / (1920 - 320)));
+    }
+    p,
+    li {
+      font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)));
+      line-height: calc(21px + (28 - 21) * ((100vw - 320px) / (1920 - 320)));
+      margin-bottom: 25px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

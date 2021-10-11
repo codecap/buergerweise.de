@@ -1,0 +1,20 @@
+---
+layout: default
+title: Privacy
+---
+
+<div class="wrapper">
+  <div class="content">
+    {% for data in site.data.privacy %}
+    <section>
+      <h2>{{ data.title }}</h2>
+      {{ data.content | markdownify }}
+      <ul>
+        {% for entry in data.lists %}
+        <li>{{ entry.list }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endfor %}
+  </div>
+</div>

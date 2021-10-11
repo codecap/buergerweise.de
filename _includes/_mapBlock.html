@@ -1,0 +1,21 @@
+<div class="contact_map">
+  <div class="address">
+    <address>
+      <p>{{ site.data.map.address }}</p>
+      <ul>
+        {% for adr in site.data.map.coordinates %}
+        <li>{{ adr.city }}</li>
+        <li>{{ adr.zip }}</li>
+        {% endfor %}
+      </ul>
+    </address>
+    <div class="contact_logo">
+      <img
+        src="{{ site.baseurl }}/assets/img/{{ site.data.pict.small_logo }}"
+        alt="logo"
+      />
+    </div>
+    <span><a href="privacy.html"> {{ site.data.titleLink.siteLink }}</a></span>
+  </div>
+  <div id="map"></div>
+</div>

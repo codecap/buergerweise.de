@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sup,
+sub,
+tt,
+var,
+b,
+u,
+i,
+center,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+tr,
+th,
+td,
+thead,
+tbody,
+tfoot,
+caption,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select,
+label,
+applet,
+object,
+iframe,
+audio,
+video,
+canvas,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  font-size: 100%;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+canvas {
+  -ms-touch-action: double-tap-zoom;
+}
+[hidden] {
+  display: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: $main__color_text;
+  &:hover {
+    color: $link__color_hover;
+  }
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background: url(../assets/img/bg.svg) top center;
+
+  color: $main__color_text;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.wrapper {
+  min-height: 100%;
+  border-right: 1px solid $border__color_line;
+  border-left: 1px solid $border__color_line;
+  margin: 0 70px;
+  position: relative;
+}
+.container {
+  max-width: 100%;
+  padding: 0 8.45%;
+}
+header {
+  border-bottom: 1px solid $border__color_line;
+
+  p {
+    font-size: 40px;
+    line-height: 54px;
+    padding: 80px 0;
+    text-align: center;
+  }
+}

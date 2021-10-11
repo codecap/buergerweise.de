@@ -1,0 +1,25 @@
+<div id="about-gallery">
+  <div class="wrapper">
+    <div class="dateTime-content">
+      <div class="about-img-wrapper image-1">
+        <div class="player_img_block">
+          <div class="player_img">
+            <img
+              src="{{ site.baseurl }}/assets/img/{{ site.data.pict.man }}"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="about-img-wrapper image-2">
+        <div class="inner_content_block">
+          <div class="inner_content">
+            <p>{{ site.data.date.top_text | markdownify }}</p>
+            <p class="dateMonth">{{ site.data.date.date }}</p>
+            <p>{{ site.data.date.bottom_text | markdownify}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

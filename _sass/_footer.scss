@@ -1,0 +1,23 @@
+footer {
+  border-top: 1px solid $border__color_line;
+  .footer_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: calc(50px + (84 - 50) * ((100vw - 1000px) / (1920 - 1000)))
+      calc(20px + (150 - 20) * ((100vw - 1000px) / (1920 - 1000)));
+    .soc_link {
+      ul {
+        display: flex;
+        gap: 40px;
+      }
+    }
+    .command_name {
+      a {
+        font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1920 - 320)));
+        line-height: calc(22px + (32 - 22) * ((100vw - 320px) / (1920 - 320)));
+      }
+    }
+  }
+}
