@@ -161,12 +161,27 @@ body {
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  @include rem(16);
   background: url(../assets/img/bg.svg) top center;
-
   color: $main__color_text;
   min-width: 320px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
+
+  &:before {
+    content: " ";
+
+    background-color: #e5e5e5;
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: auto;
+    z-index: -1;
+  }
 }
 .wrapper {
   min-height: 100%;
