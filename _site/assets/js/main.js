@@ -1,1 +1,1 @@
-function initMap(){var o={lat:50.084265,lng:8.661599},n=new google.maps.Map(document.getElementById("map"),{zoom:3,center:o});new google.maps.Marker({position:o,map:n,animation:google.maps.Animation.DROP,icon:{url:"assets/img/location.svg"}})}
+function initMap(){var o={lat:50.084265,lng:8.661599},n=new google.maps.Map(document.getElementById("map"),{zoom:6,center:o});new google.maps.Marker({position:o,map:n,animation:google.maps.Animation.DROP,icon:{url:"assets/img/location.svg"}})}
