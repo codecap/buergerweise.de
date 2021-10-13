@@ -185,8 +185,6 @@ body {
 }
 .wrapper {
   min-height: 100%;
-  // border-right: 1px solid $border__color_line;
-  // border-left: 1px solid $border__color_line;
   margin: 0 70px;
   position: relative;
 }
@@ -195,7 +193,7 @@ body {
   padding: 0 8.45%;
 }
 header {
-  // border-bottom: 1px solid $border__color_line;
+  border-bottom: 1px solid $bg__color;
 
   p {
     font-size: 40px;
