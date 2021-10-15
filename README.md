@@ -66,7 +66,7 @@ To set up the coordinates of your place take them from google map and then put t
 
 ## Contributing
 
-Pull requests are welcome on GitHub at https://github.com/makecodework/football.
+Pull requests are welcome on GitHub at https://github.com/codecap/buergerwiese.de.
 
 ## License
 
