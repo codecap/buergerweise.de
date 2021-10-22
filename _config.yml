@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: FC Bürgerwiese
-email: makecodework@gmail.com
+email: admin@buergerwiese.de
 description: >- # this means to ignore newlines until "baseurl:"
   Wir sind eine Hobby-Mannschaft und spielen schon seit mehreren Generationen
   auf der Bürgerwiese in Frankfurt am Main.
